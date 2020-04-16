@@ -1,14 +1,13 @@
 const config = {
   profiles: {
-    /*
     // Example profile
     test: {
-      name: 'BBC One',
+      name: 'Tidal test',
       parameters: {
         connectivity: 'Cable',
         location: 'London_EC2',
         runs: 5,
-        url: 'https://www.bbc.co.uk/bbcone'
+        url: 'https://listen.tidal.com'
       },
       budgets: [
         {
@@ -16,7 +15,7 @@ const config = {
           max: 1000
         }
       ]
-    }*/
+    }
   }
 }
 
