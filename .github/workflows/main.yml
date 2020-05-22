@@ -41,3 +41,5 @@ jobs:
           #budgetPath: ./budget.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
           configPath: '.github/lighthouse/lighthouserc-custom-config.json'
+          serverBaseUrl: ${{ secrets.LHCI_SERVER_BASE_URL }}
+          serverToken: ${{ secrets.LHCI_SERVER_TOKEN }}
