@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Audit URLs using Lighthouse
-        uses: mathiastim/lighthouse-ci-action@v3
+        uses: mathiastim/lighthouse-ci-action@master
         with:
           urls: |
             https://listen.tidal.com/
