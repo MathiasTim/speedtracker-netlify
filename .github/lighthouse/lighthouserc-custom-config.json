@@ -5,5 +5,8 @@
         "configPath": ".github/lighthouse/desktop-config.js"
       }
     }
+    "upload": {
+      "ignoreDuplicateBuildFailure": true
+    }
   }
 }
