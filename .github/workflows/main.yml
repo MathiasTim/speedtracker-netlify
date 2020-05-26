@@ -37,6 +37,7 @@ jobs:
         with:
           urls: |
             https://listen.tidal.com/
+            https://listen.stage.tidal.com/
             https://tidal.com
           #budgetPath: ./budget.json # test performance budgets
           uploadArtifacts: true # save results as an action artifacts
