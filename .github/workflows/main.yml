@@ -44,3 +44,4 @@ jobs:
           configPath: '.github/lighthouse/lighthouserc-custom-config.json'
           serverBaseUrl: ${{ secrets.LHCI_SERVER_BASE_URL }}
           serverToken: ${{ secrets.LHCI_SERVER_TOKEN }}
+          runs: 3
