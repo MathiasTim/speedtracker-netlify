@@ -24,6 +24,29 @@ const config = {
         }
       ]
     },
+    stage: {
+      name: 'TIDAL Web App',
+      parameters: {
+        connectivity: 'Cable',
+        location: 'Dulles:Chrome',
+        runs: 1,
+        url: 'https://listen.stage.tidal.com'
+      },
+      budgets: [
+        {
+          metric: 'SpeedIndex',
+          max: 3000
+        },
+        {
+          metric: 'loadTime',
+          max: 5000
+        },
+        {
+          metric: 'fullyLoaded',
+          max: 10000
+        }
+      ]
+    },
     website: {
       name: 'TIDAL.com',
       parameters: {
