@@ -18,6 +18,11 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     steps:
+    - name: Start webapp stage test
+      uses: enflo/curl-action@v1.2
+      with:
+        # curl arguments
+        curl: 'https://objective-panini-9ef44c.netlify.app/api/test/default?profile=stage'
     - name: Start webapp test
       uses: enflo/curl-action@v1.2
       with:
