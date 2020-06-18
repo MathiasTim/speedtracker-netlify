@@ -6,7 +6,7 @@ const config = {
       parameters: {
         connectivity: 'Cable',
         location: 'Dulles:Chrome',
-        runs: 1,
+        runs: 3,
         url: 'https://listen.tidal.com'
       },
       budgets: [
@@ -29,7 +29,7 @@ const config = {
       parameters: {
         connectivity: 'Cable',
         location: 'Dulles:Chrome',
-        runs: 1,
+        runs: 3,
         url: 'https://listen.stage.tidal.com'
       },
       budgets: [
@@ -52,7 +52,7 @@ const config = {
       parameters: {
         connectivity: 'Cable',
         location: 'Dulles:Chrome',
-        runs: 1,
+        runs: 3,
         url: 'https://tidal.com'
       },
       budgets: [
